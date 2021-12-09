@@ -69,16 +69,22 @@ recv_user05@testmail-20211204.tk:{PLAIN}password123
 
 ## postfix
 ### /etc/postfix/main.cf
-#### virtual_alias_maps
+#### alias_maps
 ```
 # エイリアス設定
 alias_maps = hash:/etc/postfix/aliases
 alias_database = hash:/etc/postfix/aliases
 allow_mail_to_commands = alias,forward,include
+```
 
+#### virtual_alias_maps
+```
 # バーチャル用ファイルの使用
 virtual_alias_maps = pcre:/etc/postfix/virtual.regxp
+```
 
+#### #### local_transport
+```
 # 一部のメールアドレスをローカル転送する
 local_transport = local
 transport_maps = hash:/etc/postfix/transport
