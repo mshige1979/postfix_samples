@@ -43,3 +43,7 @@ http://www.yam-web.net/centos7/mail/index.html
 ### postfix+dovecot でバーチャルドメイン（バーチャルメールボックスを使用）
 
 https://www.server-memo.net/server-setting/postfix/postfix-virtualmailbox.html
+
+### Amazon Linux 2でDKIMの設定 (ついでにSPF/DMARCも)
+
+https://qiita.com/biatunky/items/9009c95754da4b2e5571
