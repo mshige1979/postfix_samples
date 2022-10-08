@@ -44,6 +44,10 @@ http://www.yam-web.net/centos7/mail/index.html
 
 https://www.server-memo.net/server-setting/postfix/postfix-virtualmailbox.html
 
-### Amazon Linux 2でDKIMの設定 (ついでにSPF/DMARCも)
+### Amazon Linux 2 で DKIM の設定 (ついでに SPF/DMARC も)
 
 https://qiita.com/biatunky/items/9009c95754da4b2e5571
+
+### Postfix でバーチャルメールボックスを有効にし、バーチャルドメイン宛てのメールを受け取る (Postfix Tips & FAQ)
+
+https://www.ipentec.com/document/linux-postfix-enable-virtual-domain-and-virtual-mailbox
